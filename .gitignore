@@ -1,0 +1,14 @@
+__pycache__/
+.venv/
+.idea/
+*.ipynb_checkpoints/
+.DS_Store
+
+# reports and figures get regenerated
+reports/*
+figures/*
+
+# ignore all CSVs in data except the demos
+data/*.csv
+!data/demo_classification.csv
+!data/demo_regression.csv
