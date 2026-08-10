@@ -1,6 +1,6 @@
 **Overview**
 
-This repository contains my completed submission for the WGU course **D682 – AI Model Optimization**.
+This repository contains my completed submission for the WGU course **D682: AI Model Optimization**.
 
 The project is a controlled experimental framework for improving machine learning model performance. Rather than training a single model and reporting its score, the code establishes a documented baseline and then applies a sequence of distinct optimization techniques, measuring the effect of each one against that baseline under identical conditions.
 
@@ -28,7 +28,7 @@ Because optimization claims must be defensible, the experiment holds the random 
 
 **Optimization Techniques Evaluated**
 
-**Baseline — L2 Regularized Logistic Regression**
+**Baseline: L2 Regularized Logistic Regression**
 A standardized logistic regression with L2 penalty, serving as the reference point for all subsequent comparisons.
 
 **Hyperparameter Tuning**
@@ -88,12 +88,12 @@ The data source and target column can be overridden through the DATA_CSV and TAR
 
 **Repository Contents**
 
--`experiments/run_experiments.py` – Classification optimization experiment suite
+-`experiments/run_experiments.py`: Classification optimization experiment suite
 
--`experiments/run_experiments_regression.py` – Regression optimization experiment suite
+-`experiments/run_experiments_regression.py`: Regression optimization experiment suite
 
--`data/demo_classification.csv` – Classification dataset
+-`data/demo_classification.csv`: Classification dataset
 
--`data/demo_regression.csv` – Regression dataset
+-`data/demo_regression.csv`: Regression dataset
 
--`docs/Report_Template.docx` – Written report deliverable template
+-`docs/Report_Template.docx`: Written report deliverable template
